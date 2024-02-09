@@ -14,3 +14,14 @@
     npx nodemon src/app
 
 ```
+
+## configurar node 
+
+```
+    npm i -D typescript @types/node => para configurar el typescript
+    npx tsc --init --outDir dist/ --rootDir src => para que nos cree el tsconfig.json
+    npx tsc --watch => para poder transpilar el  codigo a js automaticamente
+
+
+```
+
